@@ -1,0 +1,2 @@
+This piece of code provides result of scores  got by student. 
+Depending on range of total score, student get  appropriate assessment.
