@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+
+<div class="edu">
+    <h3>Choose the Course</h3>
+
+    <label for="Frontend">Frontend</label>
+    <select name="Frontend" id="Frontend" class="cours">
+        
+        <option value="1000">JavaScript</option>
+        <option value="1000">HTML</option>
+        <option value="0">none</option>
+         
+        <input class="frontInput" type="text" placeholder="input ammount">
+    </select>
+
+    <label for="Backend">Backend</label>
+    <select name="Backend" id="Backend" class="cours">
+        
+        <option value="1500">PHP</option>
+        <option value="1500">JAVA</option>
+        <option value="0">none</option>
+         
+        <input class="backInput" type="text" placeholder="input ammount">
+    </select>
+
+    <label for="Design">Design</label>
+    <select name="Design" id="Design" class="cours">
+        
+        <option value="500">Photoshop</option>
+        <option value="500">Lightroom</option>
+        <option value="0">none</option>
+         
+        <input class="desInput" type="text" placeholder="input ammount">
+    </select>
+
+    <button class="resultSum" onclick="getSum()">Calculate total Sum</button>
+    <h2 class="sumCourse"></h2>
+    <h3 class="finalPrice"></h3>
+</div>
+  
+    
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

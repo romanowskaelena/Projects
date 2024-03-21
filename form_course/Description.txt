@@ -1,0 +1,7 @@
+This piece of code provides a course selection form 
+where student can select different courses. 
+
+Each course has its own price.
+After selecting courses and specifying the quantity, clicking the button should display the total cost of the selected courses.
+
+If the total cost exceeds $3,000, the student will be given a 30% discount and the final discounted amount should be displayed.
