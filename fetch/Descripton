@@ -1,3 +1,6 @@
 This peace of code 
 Gets 10 random users from the API,
-Displays information about each user on the page (layout is created on js)
+Displays information about each user on the page (layout is created on js).
+
+Added search function:
+When you enter text in the search field, the list of contacts is filtered according to the entered text and display only matching contacts.
